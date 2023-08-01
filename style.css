@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;1,300&family=Manrope:wght@200;400;500&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  height: 5.25rem;
+
+  color: black;
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 50px;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+nav .list-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 15px;
+}
+.list-item li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+a {
+  padding: 3px 20px;
+  text-decoration: none;
+  color: black;
+}
+.right-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 15px;
+  display: inline-flex;
+}
+.search-btn {
+  height: 1.125rem;
+  width: 2rem;
+  color: black;
+  border: 0;
+}
+i {
+  border: none;
+  padding: 0;
+}
+button {
+  background-color: white;
+  border: 0;
+  font-size: 1.12rem;
+}
+.schedule-button {
+  background-color: orange;
+  color: white;
+  font-size: 15px;
+  margin-left: 25px;
+  width: 11.25rem;
+  height: 2.8rem;
+  border-radius: 1rem;
+  margin-right: 60px;
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 121, 57),
+    rgb(236, 72, 100),
+    rgb(239, 16, 102)
+  );
+}
+a.share-link {
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 121, 57),
+    rgb(236, 72, 100),
+    rgb(239, 16, 102)
+  );
+
+  -webkit-background-clip: text;
+
+  color: transparent;
+}
+.heading-image {
+  display: flex;
+  justify-content: space-around;
+
+  flex-direction: row;
+
+  height: 623px;
+  margin: auto;
+  background-color: rgb(19, 20, 25);
+}
+div.left-items {
+  padding-top: 100px;
+  width: 480px;
+}
+
+div.container {
+  display: flex;
+  align-items: center;
+
+  width: 50vw;
+  flex-direction: column;
+  color: white;
+  padding: 0 108px 120px;
+}
+div.image-container {
+  width: 50vw;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  height: 268px;
+  margin-bottom: -30px;
+}
+p.heading-para {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+div.button-container button {
+  width: 155px;
+  height: 3rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 121, 57),
+    rgb(236, 72, 100),
+    rgb(239, 16, 102)
+  );
+  padding: 12px;
+  color: white;
+}
+.image-container img {
+  object-fit: cover;
+  width: 50vw;
+  height: 100%;
+}
+.second-section{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 120px;
+    padding-bottom: 10px;
+
+   
+
+}
+.right-para{
+    width: 50vw;
+    padding: 20px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+
+  
+.left-heading{
+    padding: 20px;
+   
+}
+.left-heading h1{
+    font-weight: 400;
+}
+span.decoration-text{
+
+    background-image: linear-gradient(
+        to right,
+        rgb(233, 121, 57),
+        rgb(236, 72, 100),
+        rgb(239, 16, 102)
+      );
+    
+      -webkit-background-clip:text;
+      color: transparent;
+    
+}
+hr{
+    height: 3px;
+    border: none;
+    margin-bottom: 100px;
+
+    color: red;
+    margin:auto;
+    width: 90vw;
+    background-image: linear-gradient(
+        to right,
+        rgb(233, 121, 57),
+        rgb(236, 72, 100),
+        rgb(239, 16, 102)
+      );
+
+
+   
+}
+
+  
+   
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    
+    padding:20px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    background-color: rgb(19, 20, 25);
+    color: white;
+}
+li{
+    list-style: none;
+   
+}
+.footer li a{
+    color: white;
+}
+.social-icons{
+    display: flex;
+
+}
+.icons-list{
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+
+
+}
+.icon-list li a {
+    padding: 0px;
+}
+.resources li a {
+   text-align: left;
+   padding: 0px;
+   line-height: 2.25rem;
+   font-size: smaller;
+}
+
+ 
+ .navigation li a {
+    text-align: left;
+    padding: 0px;
+    line-height: 2.25rem;
+    font-size: smaller;
+ }
+ .contact li a {
+    text-align: left;
+    padding: 0px;
+    line-height: 2rem;
+    font-size: smaller;
+ }
+ p.about-us{
+    margin-right: 20px;
+    margin-top: 20px;
+    line-height: 2rem;
+ }
+ .aboutus li a {
+    text-align: left;
+    padding-left: 0px;
+    font-size: 1.5rem;
+  
+    
+ }
+ .aboutus h2{
+    font-size: 3rem;
+    font-weight: 300;
+ }
+ h3{
+    font-size: small;
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
+ .section-container-three{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+
+ }
+.sub-heading h1{
+   margin-top: 50px;
+   margin-left: 90px;
+   height:100px;
+   font-weight: 400;
+ 
+
+ }
+ .icon-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+ }
+
+.decoration-text i{
+    padding-bottom: 30px;
+    padding-top: 40px;
+ 
+    font-size: 50px
+    
+    
+}
+.icon-headinng p{
+    font-size: 1.2rem;
+    padding: 25px;
+    padding-left: 0;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+.section-container-four{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 90px;
+   
+
+}
+.circular-image{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    background-color: brown;
+    margin-top: 50px;
+    background-image: url(office\ pic.png);
+    background-size: cover;
+}
+.fourth-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    
+}
+.fourth-text{
+    width: 50%;
+}
+.fourth-text h3{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+div.lines{
+    width: 4rem;
+    height:3px;
+    background-image: linear-gradient(
+        to right,
+        rgb(233, 121, 57),
+        rgb(236, 72, 100),
+        rgb(239, 16, 102)
+      );
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.fa{
+    font-size: 100px;
+    height: 100px;
+    width: 100px;
+}
