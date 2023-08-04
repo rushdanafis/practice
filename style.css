@@ -366,3 +366,131 @@ div.lines{
     margin-bottom: 20px;
     margin-top: 20px;
 }
+span.decoration-texts{
+
+    background-image: linear-gradient(
+        to right,
+        rgb(233, 121, 57),
+        rgb(236, 72, 100),
+        rgb(239, 16, 102)
+      );
+    
+      -webkit-background-clip:text;
+      color: transparent;
+      display: block;
+      font-size: 50px;
+      padding-left: 0;
+    
+}
+.section-five-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 50px;
+    padding-bottom: 150px;
+
+    
+}
+.brand-logo{
+    width: 150px;
+    height: 2rem;
+    text-align: center;
+    padding-top: 4px;
+
+   border: 1px grey solid;
+   border-radius:10px
+
+   
+}
+.fifth-container{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   padding: 50px;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.boxed-image{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color:rgb(173, 71, 2);
+    background-image:url("office\ pic.png") ;
+    background-size: cover;
+   position: relative;
+   bottom: 40px;
+   margin-bottom: -30px;
+}
+.boxed-text{
+   text-align: center;
+   line-height: 1.6rem;
+   font-weight: 300;
+   font-size: .9rem;
+   /* border: 3px solid; */
+   /* border-radius: 1rem; */
+   padding: 50px;
+   border-width: 1rem;
+   padding: 2.5px;
+
+   background-image: linear-gradient(
+        to right,
+        rgb(233, 121, 57),
+        rgb(236, 72, 100),
+        rgb(239, 16, 102)
+      );
+   /* border-image-slice: 1; */
+
+}
+.text-box{
+
+    padding-bottom: 80px;
+    padding-top:60px;
+    padding-inline: 30px;
+   
+
+    background-color: white;
+}
+
+.boxed-designation{
+    text-align: center;
+
+}
+.boxed-designation h5{
+    font-size: 1rem;
+    padding: 10px;
+}
+.boxed-designation p{
+    font-size: .8rem;
+    font-weight: 200;
+    
+}
+
+.sixth-container{
+
+display: flex;
+flex-direction: row;
+
+
+}
+.sixth-image{
+    width: 50vw;
+    height: 70vh;
+    
+    /* background-image: url("office\ pic.png");
+    background-size: cover; */
+    background-color: rgb(36, 32, 32);
+}
+.enter-details-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 100px;
+   
+   
+}user-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
